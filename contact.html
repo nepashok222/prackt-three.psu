@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Алексей Громов</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo">АЛЕКСЕЙ<span>ГРОМОВ</span></a>
+            <ul class="nav__list">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="pricing.html">Услуги и цены</a></li>
+                <li><a href="contact.html" class="active">Контакты</a></li>
+            </ul>
+            <div class="burger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-hero__title">Контакты</h1>
+                <p class="page-hero__subtitle">Давайте обсудим ваше событие</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="contact__grid">
+                    <div class="contact__info">
+                        <h2>Свяжитесь со мной</h2>
+                        <p>Я открыт для обсуждения любых идей. Расскажите о вашем событии, и я предложу лучшее решение.</p>
+                        <div class="contact__details">
+                            <div class="contact__item">
+                                <span class="contact__icon">📞</span>
+                                <div>
+                                    <h4>Телефон</h4>
+                                    <a href="tel:+79001234567">+7 (900) 123-45-67</a>
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <span class="contact__icon">✉️</span>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:gromov@example.com">gromov@example.com</a>
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <span class="contact__icon">📍</span>
+                                <div>
+                                    <h4>Город</h4>
+                                    <p>Москва и Московская область (возможны выезды по РФ и за границу)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__socials">
+                            <h4>Социальные сети</h4>
+                            <div class="social-links">
+                                <a href="#" class="social-link">VK</a>
+                                <a href="#" class="social-link">Telegram</a>
+                                <a href="#" class="social-link">YouTube</a>
+                                <a href="#" class="social-link">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact__form" id="contactForm">
+                        <h3>Оставьте заявку</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <select id="eventType">
+                                <option value="">Тип мероприятия</option>
+                                <option value="wedding">Свадьба</option>
+                                <option value="corporate">Корпоратив</option>
+                                <option value="birthday">День рождения</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="eventDate">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" placeholder="Опишите ваше событие (количество гостей, локация, пожелания)"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+                        <p class="form-notice">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <p>&copy; 2026 Алексей Громов. Все права защищены.</p>
+            <div class="footer__socials">
+                <a href="#">VK</a>
+                <a href="#">Telegram</a>
+                <a href="#">YouTube</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

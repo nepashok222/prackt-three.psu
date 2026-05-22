@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Алексей Громов</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo">АЛЕКСЕЙ<span>ГРОМОВ</span></a>
+            <ul class="nav__list">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="portfolio.html" class="active">Портфолио</a></li>
+                <li><a href="pricing.html">Услуги и цены</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+            <div class="burger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-hero__title">Портфолио</h1>
+                <p class="page-hero__subtitle">Лучшие моменты моих мероприятий</p>
+            </div>
+        </section>
+
+        <section class="portfolio-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Все события</button>
+                    <button class="filter-btn" data-filter="wedding">Свадьбы</button>
+                    <button class="filter-btn" data-filter="corporate">Корпоративы</button>
+                    <button class="filter-btn" data-filter="birthday">Дни рождения</button>
+                    <button class="filter-btn" data-filter="other">Другое</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-grid">
+            <div class="container">
+                <div class="portfolio__items">
+                    <div class="portfolio-item" data-category="wedding">
+                        <div class="portfolio-item__media">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Свадьба Анны и Дмитрия" allowfullscreen></iframe>
+                        </div>
+                        <div class="portfolio-item__info">
+                            <span class="portfolio-item__category">Свадьба</span>
+                            <h3>Анна и Дмитрий</h3>
+                            <p>Камерная свадьба на 40 гостей в загородном клубе. Романтичная программа с элементами театрализации.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="corporate">
+                        <div class="portfolio-item__media">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Корпоратив компании" allowfullscreen></iframe>
+                        </div>
+                        <div class="portfolio-item__info">
+                            <span class="portfolio-item__category">Корпоратив</span>
+                            <h3>Новогодний вечер «ГазТех»</h3>
+                            <p>Масштабный корпоратив на 200 человек. Тематическая вечеринка в стиле «Великий Гэтсби».</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="birthday">
+                        <div class="portfolio-item__media">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Юбилей Елены" allowfullscreen></iframe>
+                        </div>
+                        <div class="portfolio-item__info">
+                            <span class="portfolio-item__category">День рождения</span>
+                            <h3>Юбилей Елены</h3>
+                            <p>Пышный юбилей в ресторане «Пушкин». Программа с приглашёнными артистами и живой музыкой.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="wedding">
+                        <div class="portfolio-item__media">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Свадьба в Тоскане" allowfullscreen></iframe>
+                        </div>
+                        <div class="portfolio-item__info">
+                            <span class="portfolio-item__category">Свадьба</span>
+                            <h3>Выездная свадьба в Тоскане</h3>
+                            <p>Свадьба на винограднике. Проведение на русском и английском языках.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="corporate">
+                        <div class="portfolio-item__media">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Летний тимбилдинг" allowfullscreen></iframe>
+                        </div>
+                        <div class="portfolio-item__info">
+                            <span class="portfolio-item__category">Корпоратив</span>
+                            <h3>Летний тимбилдинг «ВКонтакте»</h3>
+                            <p>Выездное мероприятие на открытом воздухе. Спортивные конкурсы и вечернее шоу.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="other">
+                        <div class="portfolio-item__media">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Открытие автосалона" allowfullscreen></iframe>
+                        </div>
+                        <div class="portfolio-item__info">
+                            <span class="portfolio-item__category">Открытие</span>
+                            <h3>Открытие автосалона BMW</h3>
+                            <p>Церемония открытия с участием первых лиц города. Фуршет и развлекательная программа.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__cta text-center">
+                    <p>Хотите такое же крутое мероприятие?</p>
+                    <a href="contact.html" class="btn btn--primary">Обсудить событие</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <p>&copy; 2026 Алексей Громов. Все права защищены.</p>
+            <div class="footer__socials">
+                <a href="#">VK</a>
+                <a href="#">Telegram</a>
+                <a href="#">YouTube</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
